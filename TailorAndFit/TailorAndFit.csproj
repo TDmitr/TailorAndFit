@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AEFB795-ECD4-4B7C-AD6F-42FF7EAA6880}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TailorAndFit</RootNamespace>
+    <AssemblyName>TailorAndFit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Account.cs" />
+    <Compile Include="Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts.Designer.cs">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAccount.Designer.cs">
+      <DependentUpon>AddAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Archive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archive.Designer.cs">
+      <DependentUpon>Archive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClothesFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothesFormcs.Designer.cs">
+      <DependentUpon>ClothesFormcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SerializableDictionary.cs" />
+    <Compile Include="MaterialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialsForm.Designer.cs">
+      <DependentUpon>MaterialsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRepair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRepair.Designer.cs">
+      <DependentUpon>AddRepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Base.cs" />
+    <Compile Include="Data\ClothesKind.cs" />
+    <Compile Include="Data\Consist.cs" />
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Material.cs" />
+    <Compile Include="MatList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatList.Designer.cs">
+      <DependentUpon>MatList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Repair.cs" />
+    <Compile Include="Data\Repairing.cs" />
+    <Compile Include="Data\RepGroup.cs" />
+    <Compile Include="RepGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepGroupForm.Designer.cs">
+      <DependentUpon>RepGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowJournal.Designer.cs">
+      <DependentUpon>ShowJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestSerialization.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts.resx">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAccount.resx">
+      <DependentUpon>AddAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Archive.resx">
+      <DependentUpon>Archive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothesFormcs.resx">
+      <DependentUpon>ClothesFormcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsForm.resx">
+      <DependentUpon>MaterialsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRepair.resx">
+      <DependentUpon>AddRepair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatList.resx">
+      <DependentUpon>MatList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RepGroupForm.resx">
+      <DependentUpon>RepGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowJournal.resx">
+      <DependentUpon>ShowJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tailor-fit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LochScissors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LochScissors1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459700102_document_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459700443_document_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459701304_user_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459701471_document_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459702417_Toilet_tissue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459703803_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459704309_netlog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459704403_Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459704887_notification_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459704994_user_manage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459705182_icons-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459711453_folder_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1459711403_folder_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty-filter-xl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_seo2-50-512.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

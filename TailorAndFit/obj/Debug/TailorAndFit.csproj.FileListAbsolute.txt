@@ -1,0 +1,31 @@
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\bin\Debug\TailorAndFit.exe.config
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\bin\Debug\TailorAndFit.exe
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\bin\Debug\TailorAndFit.pdb
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.LogIn.resources
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.exe
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.pdb
+c:\users\pc\documents\visual studio 2012\Projects\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.AboutForm.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\bin\Debug\TailorAndFit.exe.config
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.exe
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.pdb
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\bin\Debug\TailorAndFit.exe
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\bin\Debug\TailorAndFit.pdb
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.AboutForm.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.LogIn.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.Properties.Resources.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.MainForm.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.AddRepair.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.MatList.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.Accounts.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.AddAccount.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.Test.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.MaterialsForm.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.RepGroupForm.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.ClothesFormcs.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.ShowJournal.resources
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit\obj\Debug\TailorAndFit.Archive.resources

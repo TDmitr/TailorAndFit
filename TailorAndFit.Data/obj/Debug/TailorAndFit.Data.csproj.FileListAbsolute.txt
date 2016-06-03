@@ -1,0 +1,4 @@
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit.Data\bin\Debug\TailorAndFit.Data.dll
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit.Data\bin\Debug\TailorAndFit.Data.pdb
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit.Data\obj\Debug\TailorAndFit.Data.dll
+C:\Users\Администратор\Desktop\TailorAndFit\TailorAndFit.Data\obj\Debug\TailorAndFit.Data.pdb
