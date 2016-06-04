@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TailorAndFit
 {
+    [Serializable]
     public class Material:Base<Material>
     {
   

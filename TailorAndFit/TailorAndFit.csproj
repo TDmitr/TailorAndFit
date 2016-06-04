@@ -45,125 +45,100 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutForm.cs">
+    <Compile Include="Controling.cs" />
+    <Compile Include="IControl.cs" />
+    <Compile Include="View\AboutForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutForm.Designer.cs">
+    <Compile Include="View\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\Account.cs" />
-    <Compile Include="Accounts.cs">
+    <Compile Include="View\Accounts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Accounts.Designer.cs">
+    <Compile Include="View\Accounts.Designer.cs">
       <DependentUpon>Accounts.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddAccount.cs">
+    <Compile Include="View\AddAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddAccount.Designer.cs">
+    <Compile Include="View\AddAccount.Designer.cs">
       <DependentUpon>AddAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="Archive.cs">
+    <Compile Include="View\Archive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Archive.Designer.cs">
+    <Compile Include="View\Archive.Designer.cs">
       <DependentUpon>Archive.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClothesFormcs.cs">
+    <Compile Include="View\ClothesFormcs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClothesFormcs.Designer.cs">
+    <Compile Include="View\ClothesFormcs.Designer.cs">
       <DependentUpon>ClothesFormcs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\SerializableDictionary.cs" />
-    <Compile Include="MaterialsForm.cs">
+    <Compile Include="View\MaterialsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MaterialsForm.Designer.cs">
+    <Compile Include="View\MaterialsForm.Designer.cs">
       <DependentUpon>MaterialsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddRepair.cs">
+    <Compile Include="View\AddRepair.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddRepair.Designer.cs">
+    <Compile Include="View\AddRepair.Designer.cs">
       <DependentUpon>AddRepair.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\Base.cs" />
     <Compile Include="Data\ClothesKind.cs" />
     <Compile Include="Data\Consist.cs" />
-    <Compile Include="LogIn.cs">
+    <Compile Include="View\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogIn.Designer.cs">
-      <DependentUpon>LogIn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="View\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\Material.cs" />
-    <Compile Include="MatList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MatList.Designer.cs">
-      <DependentUpon>MatList.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\Repair.cs" />
-    <Compile Include="Data\Repairing.cs" />
     <Compile Include="Data\RepGroup.cs" />
-    <Compile Include="RepGroupForm.cs">
+    <Compile Include="View\RepGroupForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RepGroupForm.Designer.cs">
+    <Compile Include="View\RepGroupForm.Designer.cs">
       <DependentUpon>RepGroupForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ShowJournal.cs">
+    <Compile Include="View\ShowJournal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShowJournal.Designer.cs">
+    <Compile Include="View\ShowJournal.Designer.cs">
       <DependentUpon>ShowJournal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TestSerialization.cs" />
-    <EmbeddedResource Include="AboutForm.resx">
+    <EmbeddedResource Include="View\AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Accounts.resx">
+    <EmbeddedResource Include="View\Accounts.resx">
       <DependentUpon>Accounts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddAccount.resx">
+    <EmbeddedResource Include="View\AddAccount.resx">
       <DependentUpon>AddAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Archive.resx">
+    <EmbeddedResource Include="View\Archive.resx">
       <DependentUpon>Archive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClothesFormcs.resx">
+    <EmbeddedResource Include="View\ClothesFormcs.resx">
       <DependentUpon>ClothesFormcs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MaterialsForm.resx">
+    <EmbeddedResource Include="View\MaterialsForm.resx">
       <DependentUpon>MaterialsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddRepair.resx">
+    <EmbeddedResource Include="View\AddRepair.resx">
       <DependentUpon>AddRepair.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogIn.resx">
-      <DependentUpon>LogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="View\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MatList.resx">
-      <DependentUpon>MatList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -175,14 +150,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RepGroupForm.resx">
+    <EmbeddedResource Include="View\RepGroupForm.resx">
       <DependentUpon>RepGroupForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ShowJournal.resx">
+    <EmbeddedResource Include="View\ShowJournal.resx">
       <DependentUpon>ShowJournal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Test.resx">
-      <DependentUpon>Test.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -250,6 +222,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\flat_seo2-50-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-file-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_all-icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-icon-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\useful-info-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factsheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace TailorAndFit
 {
+    [Serializable]
     public class Repair : Base<Repair>
     {
 
         public DateTime Date { get; set; }
+
         public string Description { get; set; }
+
         public bool IsDone { get; set; }
+
         public Account Account { get; set; }
+
         public ClothesKind Clothes { get; set; }
+
         public RepGroup RepGroup { get; set; }
+
         public double Price { get; set; }
 
         public List<Material> Material
@@ -33,11 +40,6 @@ namespace TailorAndFit
             }
         }
 
-        public Repair()
-        {
-            
-        }
-
         public Repair(string name, DateTime dateTime, string description, Account account, RepGroup group, ClothesKind clothes) : base(name)
         {
             Name = name;
@@ -50,15 +52,26 @@ namespace TailorAndFit
             Price = CalculatePrice(group, clothes);
         }
 
-
         public override string ToString()
         {
-            return base.ToString();
+            return Name + " " + 
+                   Date + " " + 
+                   Description + " " + 
+                   Account.Id + " " + 
+                   Clothes.Id + " " + 
+                   RepGroup.Id + " " +
+                   Price + ";";
         }
 
         public double CalculatePrice(RepGroup g, ClothesKind k )
         {
             return g.Price + k.Price;
         }
+
+        
+
+
+
+
     }
 }

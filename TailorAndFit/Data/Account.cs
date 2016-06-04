@@ -6,26 +6,21 @@ using System.Threading.Tasks;
 
 namespace TailorAndFit
 {
+    [Serializable]
     public class Account : Base<Account>
     {
-        //public int StudentCount { get; set; }
+ 
         public string PersonName { get; set; }
+
         public string PersonSurname { get; set; }
+
         public DateTime BirthDate { get; set; }
+
         public DateTime AccountDate { get; set; }
+
         public string Email { get; set; }
+
         public string MobilePhone { get; set; }
-
-
-        public Account(string name) : base(name)
-        {
-
-        }
-
-        public Account()
-        {
-            
-        }
 
         public Account(string personName, string personSurname, DateTime birth, string email, string mobile)
         {
@@ -38,23 +33,6 @@ namespace TailorAndFit
             MobilePhone = mobile;
         }
 
-
-        public List<Repair> Subjects
-        {
-            get
-            {
-                var res = new List<Repair>();
-                foreach (var repairing in Repairing.Items.Values)
-                {
-                    if (repairing.Account == this)
-                    {
-                        res.Add(repairing.Repair);
-                    }
-                }
-                return res;
-            }
-        }
-
         public override string ToString()
         {
             return Name + " "
@@ -65,5 +43,48 @@ namespace TailorAndFit
                    + Email + " "
                    + MobilePhone;
         }
+
+        public static IEnumerable<Account> SearchByPersonName(string value)
+        {
+            return from item in Items.Values.ToList()
+                   where item.PersonName == value
+                   select item;
+        }
+
+        public static IEnumerable<Account> SearchBySurname(string value)
+        {
+            return from item in Items.Values.ToList()
+                   where item.PersonSurname == value
+                   select item;
+        }
+
+        public static IEnumerable<Account> SearchByBirthday(DateTime a, DateTime b)
+        {
+            return from item in Items.Values.ToList()
+                    where item.BirthDate > a && item.BirthDate < b
+                    select item;
+        }
+
+        public static IEnumerable<Account> SearchByAccDate(DateTime a, DateTime b)
+        {
+            return from item in Items.Values.ToList()
+                   where item.AccountDate > a && item.AccountDate < b
+                   select item;
+        }
+
+        public static IEnumerable<Account> SearchByEmail(string value)
+        {
+            return from item in Items.Values.ToList()
+                   where item.Email == value
+                   select item;
+        }
+
+        public static IEnumerable<Account> SearchByPhone(string value)
+        {
+            return from item in Items.Values.ToList()
+                   where item.MobilePhone == value
+                   select item;
+        }
+
     }
 }

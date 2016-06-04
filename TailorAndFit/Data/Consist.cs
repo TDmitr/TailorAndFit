@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TailorAndFit
 {
-   public class Consist : Base<Consist>
+    [Serializable]
+    public class Consist : Base<Consist>
    {
         private Guid _materialId;
 

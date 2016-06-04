@@ -121,17 +121,35 @@
   <data name="_1459704403_Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1459704403_Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_1459705182_icons_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1459705182_icons-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="empty-filter-xl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\empty-filter-xl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_1459701304_user_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1459701304_user_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="useful-info-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\useful-info-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_all-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_all-icon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tailorfit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tailor-fit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_1459705182_icons_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1459705182_icons-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flat_seo2-50-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_seo2-50-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LochScissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LochScissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-file-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-file-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_1459700102_document_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1459700102_document_add.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,10 +178,13 @@
   <data name="_1459703803_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1459703803_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LochScissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LochScissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="information-icon-md" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information-icon-md.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="flat_seo2-50-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flat_seo2-50-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="factsheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\factsheet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

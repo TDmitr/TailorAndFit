@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace TailorAndFit
 {
+    [Serializable]
     public class RepGroup:Base<RepGroup>
     {
         public string Description { get; set; }
 
-        //public ClothesKind ClothesKind
-        //{
-        //    get { return ClothesKind.Items[_clothesId]; }
-        //    set { _clothesId = value.Id; }
-        //}
-        public ClothesKind ClothesKind;
+
         public List<Repair> Repairs
         {
             get
@@ -27,36 +23,18 @@ namespace TailorAndFit
         }
         public double Price { get; set; }
 
-       // private Guid _clothesId;
-
 
         public RepGroup(string name) : base(name)
         {
             
         }
 
-        public RepGroup()
-        {
-            
-        }
 
-        public RepGroup(string name, string description, ClothesKind clothesKind, double price)
+        public RepGroup(string name, string description, double price)
         {
             Name = name;
             Description = description;
-            ClothesKind = clothesKind;
             Price = price;
-        }
-
-        public override void Add()
-        {
-
-
-        }
-
-        public override void Delete()
-        {
-            
         }
 
         public override string ToString() => Name + " " + Description +  " " + Price;
